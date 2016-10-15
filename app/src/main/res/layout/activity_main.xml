@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="www.love311.cn.takechoosepictest.MainActivity">
+
+    <TextView
+        android:id="@+id/take_a_pic"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="#87c687"
+        android:text="拍一张"
+        android:gravity="center"
+        android:layout_margin="20px"/>
+
+
+    <TextView
+        android:id="@+id/choose_a_pic"
+        android:layout_width="match_parent"
+        android:layout_height="80px"
+        android:background="#87c687"
+        android:text="从相册选取"
+        android:gravity="center"
+        android:layout_margin="20px"/>
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="480px"
+        android:layout_marginTop="36px"
+        android:layout_gravity="center"/>
+</LinearLayout>
